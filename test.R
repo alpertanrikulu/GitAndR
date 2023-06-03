@@ -1,3 +1,4 @@
 get.yesterday <- function() {
-  return(Wys.Date() - 1)
+  x <- (Wys.Date() - 1)
+  return(x)
 }
